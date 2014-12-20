@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C4867ADB1A455E2300D3347A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867ADA1A455E2300D3347A /* AppDelegate.swift */; };
-		C4867ADD1A455E2300D3347A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867ADC1A455E2300D3347A /* ViewController.swift */; };
 		C4867AE01A455E2300D3347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4867ADE1A455E2300D3347A /* Main.storyboard */; };
 		C4867AE21A455E2300D3347A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4867AE11A455E2300D3347A /* Images.xcassets */; };
 		C4867AE51A455E2300D3347A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4867AE31A455E2300D3347A /* LaunchScreen.xib */; };
 		C4867AF11A455E2400D3347A /* photolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867AF01A455E2400D3347A /* photolistTests.swift */; };
+		C4867AFB1A45655600D3347A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867AFA1A45655600D3347A /* Photo.swift */; };
+		C4867AFD1A45661E00D3347A /* PhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867AFC1A45661E00D3347A /* PhotosTableViewController.swift */; };
+		C4867AFF1A45665A00D3347A /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867AFE1A45665A00D3347A /* DisplayViewController.swift */; };
+		C4867B011A45666900D3347A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867B001A45666900D3347A /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		C4867AD51A455E2300D3347A /* photolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4867AD91A455E2300D3347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4867ADA1A455E2300D3347A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4867ADC1A455E2300D3347A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4867ADF1A455E2300D3347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4867AE11A455E2300D3347A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C4867AE41A455E2300D3347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C4867AEA1A455E2300D3347A /* photolistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photolistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4867AEF1A455E2300D3347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4867AF01A455E2400D3347A /* photolistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photolistTests.swift; sourceTree = "<group>"; };
+		C4867AFA1A45655600D3347A /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = photolist/Photo.swift; sourceTree = "<group>"; };
+		C4867AFC1A45661E00D3347A /* PhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewController.swift; sourceTree = "<group>"; };
+		C4867AFE1A45665A00D3347A /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		C4867B001A45666900D3347A /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		C4867ACC1A455E2300D3347A = {
 			isa = PBXGroup;
 			children = (
+				C4867AFA1A45655600D3347A /* Photo.swift */,
 				C4867AD71A455E2300D3347A /* photolist */,
 				C4867AED1A455E2300D3347A /* photolistTests */,
 				C4867AD61A455E2300D3347A /* Products */,
@@ -78,8 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				C4867ADA1A455E2300D3347A /* AppDelegate.swift */,
-				C4867ADC1A455E2300D3347A /* ViewController.swift */,
 				C4867ADE1A455E2300D3347A /* Main.storyboard */,
+				C4867AFC1A45661E00D3347A /* PhotosTableViewController.swift */,
+				C4867AFE1A45665A00D3347A /* DisplayViewController.swift */,
+				C4867B001A45666900D3347A /* InfoViewController.swift */,
 				C4867AE11A455E2300D3347A /* Images.xcassets */,
 				C4867AE31A455E2300D3347A /* LaunchScreen.xib */,
 				C4867AD81A455E2300D3347A /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4867ADD1A455E2300D3347A /* ViewController.swift in Sources */,
+				C4867AFB1A45655600D3347A /* Photo.swift in Sources */,
 				C4867ADB1A455E2300D3347A /* AppDelegate.swift in Sources */,
+				C4867AFD1A45661E00D3347A /* PhotosTableViewController.swift in Sources */,
+				C4867AFF1A45665A00D3347A /* DisplayViewController.swift in Sources */,
+				C4867B011A45666900D3347A /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = photolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = photolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
